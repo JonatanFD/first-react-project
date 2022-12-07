@@ -1,0 +1,36 @@
+.prof-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 50%)
+}
+
+.prof-container:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.prof-photo{
+    width: 100%;
+    max-width: 350px;
+}
+.prof-content {
+    padding: 0 4rem;
+    text-align: center;
+    width: 60%;
+}
+
+
+.prof-content p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.p-1{
+    font-size: 1.5rem;
+}
+.p-2 {
+    font-size: 1rem;
+}
+.p-3{
+    text-align: justify;
+}
